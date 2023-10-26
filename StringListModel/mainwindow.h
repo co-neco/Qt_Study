@@ -19,6 +19,20 @@ public:
 
 private slots:
     void on_btnRestoreList_clicked();
+    void on_btnClearList_clicked();
+    void on_btnMoveDown_clicked();
+    void on_btnAddItem_clicked();
+    void on_btnInsertItem_clicked();
+    void on_btnDeleteItem_clicked();
+    void on_btnMoveUp_clicked();
+    void on_chkEditable_clicked(bool checked);
+    void on_btnOrder_clicked(bool checked);
+
+    void on_listView_clicked(const QModelIndex &index);
+
+    void on_btnClearText_clicked();
+
+    void on_btnShowText_clicked();
 
 private:
     Ui::MainWindow *ui;
