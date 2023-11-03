@@ -30,6 +30,16 @@ private slots:
 
     void on_actOpen_triggered();
 
+    void on_actAddRow_triggered();
+
+    void on_actInsertRow_triggered();
+
+    void on_actDeleteRow_triggered();
+
+    void alignText();
+
+    void on_actPreviewData_triggered();
+
 private:
     QLabel* _labCurFile;
     QLabel* _labCellPos;
