@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "qevent": "cpp",
+        "qcloseevent": "cpp"
+    }
+}
